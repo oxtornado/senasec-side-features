@@ -4,7 +4,7 @@ def comparar_rostros():
     try:
         resultado = DeepFace.verify(
             "./images/captura.jpg", 
-            "./images/julian-camacho.jpeg",
+            "./images/daniel-duarte.jpeg",
             model_name="Facenet512",  # Mejor precisión
             enforce_detection=True  # Evita errores por imágenes sin rostro
         )
