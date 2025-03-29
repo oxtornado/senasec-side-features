@@ -5,7 +5,7 @@ def capturar_imagen():
     ret, frame = cam.read()  # Captura un solo frame
 
     if ret:
-        cv2.imwrite("captura.jpg", frame)  # Guarda la imagen
+        cv2.imwrite("./images/captura.jpg", frame)  # Guarda la imagen
         print("✅ Imagen capturada con éxito")
     else:
         print("⚠️ Error al capturar la imagen")
